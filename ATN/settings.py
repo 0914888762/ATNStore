@@ -25,7 +25,7 @@ SECRET_KEY = '!f#oxj@z%fiymo7yy)57u8=aemdn8m9!r3zpmm&^@=+sqovm*4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','atnstore1.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'ATN.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd47k0kir2aljeg',
-        'USER':'iwgkcnazfvjlqz',
-        'PASSWORD':'f0a6ece56751b1ba30fdaaa30b23facb7e2c963ce85e1a275648f9bf3fb7252d',
-        'HOST':'ec2-18-233-137-77.compute-1.amazonaws.com',
+        'NAME': 'd2ka0k6enhtm9t',
+        'USER':'xmxpylnlxubsvy',
+        'PASSWORD':'9759446a7150387476c57eab80ae6d1088e8ea43ffbc43010e4d281b1c2d8350',
+        'HOST':'ec2-52-1-92-133.compute-1.amazonaws.com',
         'PORT':'5432'
     }
 }
